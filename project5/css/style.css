@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #dee5e8;
+}
+
+header {
+	height: 200px;
+	width: 100%;
+	background: #3e3940;
+	color: #dee5e8;
+	position: fixed;
+	top: 0;
+	opacity: .9;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+}
+
+input {
+	display: block;
+	height: 50px;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding-left: 15px;
+	font-size: 1.5em;
+}
+
+main {
+	margin: 210px 5px 20px 5px ;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
